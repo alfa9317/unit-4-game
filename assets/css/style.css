@@ -1,3 +1,10 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Cinzel Decorative', cursive;
+*/
 body {
     background-image: url("https://wallpaperaccess.com/full/398858.jpg");
     background-position: center center;
@@ -7,11 +14,29 @@ body {
     background-size: cover;
    }
 
+   #title{
+       text-align: center;
+       font-family: 'Cinzel Decorative', cursive;
+       font-size: 40px;
+       color: aqua;
+       margin: 2rem;
+   }
+
+   #titleContainer{
+       position: relative;
+       padding: 1.5rem;
+   }
+
    #instructionsContainer{
-       background-color: rgb(35,55,77,0.5)
+       background-color: rgb(35,55,77,0.5);
+       text-align: center;
+       padding-bottom: 1rem;
+       line-height: 2rem;
+       font-family: 'Roboto', sans-serif;
    }
 
    #instructionsList{
+       text-align: center;
        color: aliceblue;
    }
 
@@ -20,27 +45,52 @@ body {
        margin: 1rem;
        width: 8rem;
        height: 8rem;
+       background-color:rgb(97,242,245,0.5);
+       border-radius: 80%;
+    }
+
+    #imageContainer{
+        text-align: center;
     }
 
     #target{
         display: inline-block;
         width: 10%;
         text-align: center;
+        line-height: 8rem;
         background-color: rgb(244,89,50,0.5);
+        margin: 1rem;
+        position: relative;
+        left: 44%;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 200%;
     }
 
     #statusContainer{
         display: inline-block;
         width: 10%;
+        text-align: center;
         background-color: rgb(244,89,50,0.5);
+        position: absolute;
+        right: 2%;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        line-height: 1.5rem;
     }
 
-    #scoreTitle{
-        width: 25%;
-        background-color: rgb(244,89,50,0.5);
+    #scoreContainer{
+        position: relative;
     }
 
-    #scoreValue{
-        width: 25%;
+    #scoreSubContainer{
+        width: 15%;
         background-color: rgb(244,89,50,0.5);
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 15%;
+        text-align: center;
+        line-height: 2rem;
     }
+ 
