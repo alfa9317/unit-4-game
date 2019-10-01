@@ -7,4 +7,40 @@ body {
     background-size: cover;
    }
 
-   
+   #instructionsContainer{
+       background-color: rgb(35,55,77,0.5)
+   }
+
+   #instructionsList{
+       color: aliceblue;
+   }
+
+   .crystalImage{
+       display: inline-block;
+       margin: 1rem;
+       width: 8rem;
+       height: 8rem;
+    }
+
+    #target{
+        display: inline-block;
+        width: 10%;
+        text-align: center;
+        background-color: rgb(244,89,50,0.5);
+    }
+
+    #statusContainer{
+        display: inline-block;
+        width: 10%;
+        background-color: rgb(244,89,50,0.5);
+    }
+
+    #scoreTitle{
+        width: 25%;
+        background-color: rgb(244,89,50,0.5);
+    }
+
+    #scoreValue{
+        width: 25%;
+        background-color: rgb(244,89,50,0.5);
+    }
